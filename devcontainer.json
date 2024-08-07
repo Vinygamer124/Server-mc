@@ -1,0 +1,12 @@
+{
+  "name": "PocketMine-MP Development Container",
+  "image": "mcr.microsoft.com/vscode/devcontainers/php:7",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-azuretools.vscode-docker"
+      ]
+    }
+  },
+  "postCreateCommand": "wget -q -O - https://get.pmmp.io | bash -s -"
+}
